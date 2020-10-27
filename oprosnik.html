@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lanh="ru">
+<head>
+    <title>Личный профиль</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="oprosnik.css">
+</head>
+<body>
+<form name="Profile" autocomplete="on"> 
+    <fieldset style="width:500px" name="Личный профиль">
+        <legend class="zagolovok">Личный профиль</legend>
+            <div class="stroka">
+                <label for="name">Введите имя:</label> 
+                <input type="text" id="name" required> 
+            </div>
+            <div>
+                <label for="birth">Дата рождения:</label>
+                <input type="date" id=" birth">
+            </div>
+            <div>
+                <label>Выберите пол:</label>
+                <input name="gender" type="radio">Женский</input>
+                <input name="gender" type="radio">Мужской</input>
+            </div> 
+            <div>
+                <label>Выберите страну:</label>
+                <select size="1">
+                    <option disabled>Выберите страну:</option>
+                    <option selected value="Россия">Россия</option>
+                    <option value="Украина">Украина</option>
+                    <option value="Беларусь">Беларусь</option>
+                </select>
+            </div>
+            <div>
+                <label for="brief">Кратко о себе:</label>
+                <textarea id="brief" maxlength="200" placeholder="Напишите о себе"></textarea>
+            </div>
+            <div>
+                <label for="avatar">Загрузите фотографию</label>
+                <input type="file" id="avatar" type="image/*">
+            </div>
+                <input type="submit">
+            </div>        
+    </fieldset>
+</form>
+</body>
+</html>

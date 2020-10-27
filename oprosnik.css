@@ -1,0 +1,15 @@
+body {
+    background-color: pink
+}
+.zagolovok {
+    font-size: 40px;
+}
+fieldset {
+    margin:auto;
+}
+div {
+    text-align: right;
+}
+label {
+    float: left;
+}
