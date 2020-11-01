@@ -5,7 +5,7 @@ ul {
     font-size: 2em;
 }
 .otstup {
-    margin-right: 42%;
+    margin-right: 30%;
 }
 body>a {
     text-decoration: none;
@@ -19,7 +19,7 @@ a:link {
 a:hover {
     color: rgb(156, 83, 179);
 }
-body {
+body{
     background-image: url(images/bg.jpg);
     background-size: 1850px;
     background-repeat: no-repeat;
